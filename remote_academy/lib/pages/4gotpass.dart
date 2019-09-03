@@ -8,11 +8,13 @@ class ForgotPassPage extends StatefulWidget {
 class _ForgotPassPageState extends State<ForgotPassPage> {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: SafeArea(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[],
+    return Scaffold(
+      backgroundColor: Colors.redAccent,
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[],
+          ),
         ),
       ),
     );
