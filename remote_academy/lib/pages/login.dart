@@ -33,11 +33,21 @@ class _LoginPageState extends State<LoginPage> {
               Padding(
                   padding: const EdgeInsets.only(
                       top: 100, bottom: 20, left: 20, right: 20),
-                  child: Text('Remote Academy',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 30,
-                          fontWeight: FontWeight.bold))),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Text('Remote Academy',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 30,
+                              fontWeight: FontWeight.bold)),
+                      Text('...your digital college',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold))
+                    ],
+                  )),
               Padding(
                 padding: const EdgeInsets.only(top: 60),
                 child: Text('login',

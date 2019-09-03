@@ -10,16 +10,15 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home', style: TextStyle(color: Colors.black),),
+        title: Text(
+          'Home',
+          style: TextStyle(color: Colors.black),
+        ),
         elevation: 0,
         backgroundColor: Colors.white,
       ),
-      body: ListView(
-        children: <Widget>[
-          Center(
-            child: Text('This is the home page'),
-          )
-        ],
+      body: Center(
+        child: Text('This is the home page'),
       ),
     );
   }
