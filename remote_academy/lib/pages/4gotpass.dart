@@ -73,7 +73,7 @@ class _ForgotPassPageState extends State<ForgotPassPage> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    Text('Remeber now ?',
+                    Text('Remember now ?',
                         style: TextStyle(color: Colors.white)),
                     Align(
                       alignment: Alignment.bottomCenter,
