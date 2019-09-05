@@ -39,13 +39,13 @@ class _AccountPageState extends State<AccountPage> {
                   Text(
                     'John Doe',
                     style: TextStyle(
-                        fontSize: ScreenUtil().setSp(70),
+                        fontSize: ScreenUtil().setSp(60),
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
                     'email@example.com',
                     style: TextStyle(
-                        fontSize: ScreenUtil().setSp(35),
+                        fontSize: ScreenUtil().setSp(25),
                         fontWeight: FontWeight.w300),
                   )
                 ],
