@@ -9,7 +9,7 @@ class _SignUpPageState extends State<SignUpPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.redAccent,
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -23,8 +23,8 @@ class _SignUpPageState extends State<SignUpPage> {
                       Navigator.pushNamed(context, '/login');
                     },
                     child: Text(
-                      'login',
-                      style: TextStyle(color: Colors.white, letterSpacing: 1),
+                      'Login',
+                      style: TextStyle(color: Colors.black, letterSpacing: 1),
                     ),
                   ),
                 ),
@@ -37,21 +37,21 @@ class _SignUpPageState extends State<SignUpPage> {
                     children: <Widget>[
                       Text('Remote Academy',
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontSize: 30,
                               fontWeight: FontWeight.bold)),
                       Text('...your digital college',
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontSize: 15,
                               fontWeight: FontWeight.bold))
                     ],
                   )),
               Padding(
                 padding: const EdgeInsets.only(top: 60),
-                child: Text('sign up',
+                child: Text('Sign up',
                     style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 20,
                         fontWeight: FontWeight.bold)),
               ),
@@ -64,7 +64,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       hintText: 'Name',
                       hintStyle: TextStyle(color: Colors.white),
                       filled: true,
-                      fillColor: Colors.white24,
+                      fillColor: Colors.black,
                       border: InputBorder.none),
                 ),
               ),
@@ -77,7 +77,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       hintText: 'Email',
                       hintStyle: TextStyle(color: Colors.white),
                       filled: true,
-                      fillColor: Colors.white24,
+                      fillColor: Colors.black,
                       border: InputBorder.none),
                 ),
               ),
@@ -98,7 +98,7 @@ class _SignUpPageState extends State<SignUpPage> {
                         onPressed: () {},
                       ),
                       filled: true,
-                      fillColor: Colors.white24,
+                      fillColor: Colors.black,
                       border: InputBorder.none),
                 ),
               ),
@@ -111,7 +111,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   color: Colors.red,
                   child: Center(
                     child: Text(
-                      'submit',
+                      'Submit',
                       style: TextStyle(color: Colors.white),
                     ),
                   ),

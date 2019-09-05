@@ -9,7 +9,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.redAccent,
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -24,8 +24,8 @@ class _LoginPageState extends State<LoginPage> {
                       Navigator.pushNamed(context, '/signup');
                     },
                     child: Text(
-                      'sign up',
-                      style: TextStyle(color: Colors.white, letterSpacing: 1),
+                      'Sign Up',
+                      style: TextStyle(color: Colors.black, letterSpacing: 1),
                     ),
                   ),
                 ),
@@ -38,12 +38,12 @@ class _LoginPageState extends State<LoginPage> {
                     children: <Widget>[
                       Text('Remote Academy',
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontSize: 30,
                               fontWeight: FontWeight.bold)),
                       Text('...your digital college',
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontSize: 15,
                               fontWeight: FontWeight.bold))
                     ],
@@ -52,7 +52,7 @@ class _LoginPageState extends State<LoginPage> {
                 padding: const EdgeInsets.only(top: 60),
                 child: Text('login',
                     style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 20,
                         fontWeight: FontWeight.bold)),
               ),
@@ -65,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
                       hintText: 'Email',
                       hintStyle: TextStyle(color: Colors.white),
                       filled: true,
-                      fillColor: Colors.white24,
+                      fillColor: Colors.black,
                       border: InputBorder.none),
                 ),
               ),
@@ -86,7 +86,7 @@ class _LoginPageState extends State<LoginPage> {
                         onPressed: () {},
                       ),
                       filled: true,
-                      fillColor: Colors.white24,
+                      fillColor: Colors.black,
                       border: InputBorder.none),
                 ),
               ),
@@ -100,7 +100,7 @@ class _LoginPageState extends State<LoginPage> {
                     },
                     child: Text('Forgot Password',
                         style:
-                            TextStyle(color: Colors.white, letterSpacing: 1)),
+                            TextStyle(color: Colors.black, letterSpacing: 1)),
                   ),
                 ),
               ),
@@ -113,7 +113,7 @@ class _LoginPageState extends State<LoginPage> {
                   color: Colors.red,
                   child: Center(
                     child: Text(
-                      'submit',
+                      'Submit',
                       style: TextStyle(color: Colors.white),
                     ),
                   ),

@@ -9,7 +9,7 @@ class _ForgotPassPageState extends State<ForgotPassPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.redAccent,
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -22,21 +22,21 @@ class _ForgotPassPageState extends State<ForgotPassPage> {
                     children: <Widget>[
                       Text('Remote Academy',
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontSize: 30,
                               fontWeight: FontWeight.bold)),
                       Text('...your digital college',
                           style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontSize: 15,
                               fontWeight: FontWeight.bold))
                     ],
                   )),
               Padding(
                 padding: const EdgeInsets.only(top: 60),
-                child: Text('forgot password',
+                child: Text('Forgot password ?',
                     style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 20,
                         fontWeight: FontWeight.bold)),
               ),
@@ -49,7 +49,7 @@ class _ForgotPassPageState extends State<ForgotPassPage> {
                       hintText: 'Email',
                       hintStyle: TextStyle(color: Colors.white),
                       filled: true,
-                      fillColor: Colors.white24,
+                      fillColor: Colors.black,
                       border: InputBorder.none),
                 ),
               ),
@@ -62,7 +62,7 @@ class _ForgotPassPageState extends State<ForgotPassPage> {
                   color: Colors.red,
                   child: Center(
                     child: Text(
-                      'submit',
+                      'Verify',
                       style: TextStyle(color: Colors.white),
                     ),
                   ),
@@ -74,7 +74,7 @@ class _ForgotPassPageState extends State<ForgotPassPage> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     Text('Remember now ?',
-                        style: TextStyle(color: Colors.white)),
+                        style: TextStyle(color: Colors.black)),
                     Align(
                       alignment: Alignment.bottomCenter,
                       child: FlatButton(
@@ -82,7 +82,7 @@ class _ForgotPassPageState extends State<ForgotPassPage> {
                           Navigator.pushNamed(context, '/login');
                         },
                         child: Text(
-                          'login',
+                          'Login',
                           style:
                               TextStyle(color: Colors.white, letterSpacing: 1),
                         ),
