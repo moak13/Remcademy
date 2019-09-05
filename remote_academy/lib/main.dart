@@ -3,6 +3,7 @@ import 'package:remote_academy/pages/4gotpass.dart';
 import 'package:remote_academy/pages/login.dart';
 import 'package:remote_academy/pages/signup.dart';
 import 'package:remote_academy/pages/home.dart';
+import 'package:remote_academy/pages/wrapper.dart';
 
 
 void main() => runApp(MyApp());
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/login': (BuildContext context) => LoginPage(),
         '/signup': (BuildContext context) => SignUpPage(),
         '/4gotpwd': (BuildContext context) => ForgotPassPage(),
+        '/wrapper': (BuildContext context) => WrapperView(),
         '/home': (BuildContext context) => HomePage(),
       },
     );

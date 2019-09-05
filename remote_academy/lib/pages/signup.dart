@@ -106,7 +106,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 padding: const EdgeInsets.only(left: 30, right: 30, top: 20),
                 child: RaisedButton(
                   onPressed: () {
-                    Navigator.pushNamed(context, '/home');
+                    Navigator.pushNamed(context, '/wrapper');
                   },
                   color: Colors.red,
                   child: Center(

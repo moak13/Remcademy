@@ -1,0 +1,1 @@
+enum LoadingState {idle, active, none}
