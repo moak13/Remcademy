@@ -84,7 +84,7 @@ class _ForgotPassPageState extends State<ForgotPassPage> {
                         child: Text(
                           'Login',
                           style:
-                              TextStyle(color: Colors.white, letterSpacing: 1),
+                              TextStyle(color: Colors.black, letterSpacing: 1),
                         ),
                       ),
                     )
